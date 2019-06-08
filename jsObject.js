@@ -20,7 +20,7 @@ describe('Protractor Object Demo', function(){
             expect(obj.result.getText()).toBe(data.result);
         })
     });
-
+//
     afterEach(function(){
         console.log('Test is completed');
     });
